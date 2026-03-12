@@ -51,3 +51,18 @@ console.log(empAddress);
 
 empAddress = true;
 console.log(empAddress);
+
+//6.any ==> The data type used to store any type of value
+let randomValue: any = "Hello";
+console.log(randomValue);   
+
+randomValue = 42;
+console.log(randomValue);
+randomValue = true;
+console.log(randomValue);
+randomValue=null;
+console.log(randomValue);
+
+/****************************************************/
+/*******NON-PRIMITIVE DATA TYPES IN TYPESCRIPT***********/
+/****************************************************/
